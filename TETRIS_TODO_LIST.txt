@@ -8,45 +8,41 @@ TODO List for Tetris Clone Fixes and Enhancements:
 
 [ ] 3. Add #include <fstream> to main.cpp to fix incomplete type errors for std::ifstream and std::ofstream.
 
-[ ] 4. Declare and define the loadCoins and saveCoins methods properly inside the TetrisApp class.
-
-[ ] 5. Ensure the loadCoins method is called before resetting the game and changing the game state.
-
-[ ] 6. Ensure the saveCoins method is called when exiting the game or returning to the main menu.
-- (This is not necesssary for the current version as there's really nothing cool to buy in the shop yet)
-[ ] 7. Verify that the coin display updates correctly on both the game screen and main menu.
-[ ] 8. Add an extra mod class to fix sand grains from breaking the game, ensure sand class is only called when needed.
-[ ] 9. Test shop purchase actions to deduct coins and update the background color.
-
 Next Steps:
-[ ] 10. Fix the macro definition line.
-[ ]  11. Replace font loading calls.
-[ ]  12. Add missing include.
-(will check on this error later as it's not critical)
-[x] 13. Implement load/save coin methods.
-[ ] 14. Test all coin-related features.
+- Fix the macro definition line.
+- Replace font loading calls.
+- Add missing include.
 
-This file will be used as a reference to complete the task efficiently instead of manually checking each error when compiling.
-(This file will become blank after all tasks are completed, will update with new tasks as needed)
+This file will be used as a reference to complete the task systematically.
+
 Compilation Bugs (Critical - Prevent Building):
 [ ] 1. Missing closing brace for TetrisApp class - error: expected ‘}’ at end of input.
-(not critical, game still functions)
-[ ] 2. Steps: Add the missing '};' at the end of the class definition.
+   - Steps: Add the missing '};' at the end of the class definition.
 
-[ ] 3. Invalid function definitions inside handleEvents() method.
+[ ] 2. Invalid function definitions inside handleEvents() method.
    - update() function defined inside handleEvents() at line ~847.
    - draw() function defined inside handleEvents() at line ~873.
    - Steps: Move update() and draw() function definitions outside of handleEvents(), as member functions of TetrisApp.
 
-[ ] 4. 'update' and 'draw' not declared in scope within run() method.
+[ ] 3. 'update' and 'draw' not declared in scope within run() method.
    - Steps: Ensure update() and draw() are properly declared as private member functions in the class.
 
-[ ] 5. Function-definition not allowed before ‘{’ token in handleEvents().
+[ ] 4. Function-definition not allowed before ‘{’ token in handleEvents().
    - Steps: Remove the erroneous function definitions from inside handleEvents().
 
-[ ] 6. Expected unqualified-id at end of input.
+[ ] 5. Expected unqualified-id at end of input.
    - Steps: Fix the class structure and ensure no stray code outside the class.
 
 Next Steps for Compilation Fixes:
-[ ] Review the class structure and ensure all braces are balanced.
-[ ] Move misplaced function definitions to the correct location.
+- Review the class structure and ensure all braces are balanced.
+- Move misplaced function definitions to the correct location.
+- Recompile after fixes to verify no syntax errors.
+
+[ ] SFML Text objects cannot be default constructed in optional wrappers.
+- Change std::optional<sf::Text> to sf::Text and initialize in constructor.
+
+[ ] setIcon function signature mismatch.
+- Use sf::Vector2u for size parameter: window.setIcon(sf::Vector2u(icon.getSize().x, icon.getSize().y), icon.getPixelsPtr());
+
+[ ] setPosition expects Vector2f, not separate ints.
+- Update all setPosition calls to use sf::Vector2f(x, y) instead of (x, y).
