@@ -25,7 +25,8 @@ Although this script was prompted by me and slightly edited by me, this code hea
 ## Dependencies
 
 - **SFML 3.0**: Graphics, window, audio, and system libraries.
-  - Install on Linux: `sudo apt-get install libsfml-dev` (or equivalent for your package manager).
+  - Install on Linux: `sudo apt-get install libsfml-dev`, for arch based distros: `sudo pacman -S libsfml-dev` 
+   - (or equivalent for your package manager).
 - **C++ Compiler**: GCC or Clang with C++17 support.
 
 ## Building and Running
