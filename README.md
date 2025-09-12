@@ -3,7 +3,7 @@
 A classic Tetris game implemented in C++ using the SFML (Simple and Fast Multimedia Library) for graphics, audio, and window management.
 
 # THIS IS AN OPEN SOURCE CODE, FEEL FREE TO CLONE MY REPO AND EDIT IT YOUR OWN WAY, IF YOU WANT ME TO FEATURE IT ON MY GITHUB/A FUTURE DISCORD SERVER, PLEASE CONTACT ME ON DISCORD AT:
-     <span style="color:red;">@luxifer_ms03.</span>
+     <echo -e "\e[31mThis text will be red.\e[0m"
 
 Although this script was prompted by me and slightly edited by me, this code heavily uses AI so some features might be unstable, please bear with me as I take the time to fix these issues
 
