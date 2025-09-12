@@ -36,7 +36,7 @@ Compile the project using g++:
 g++ main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -o tetris
 ```
 
-**Note**: There may be compilation errors in the current `main.cpp` file (see `compilingerror.txt`). These need to be resolved before successful compilation. The errors appear to be related to missing closing braces and function declarations.
+
 
 ### Running
 After successful compilation:
