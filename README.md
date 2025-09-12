@@ -41,7 +41,29 @@ Compile the project using g++:
 g++ main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -o tetris
 ```
 
-**Note**: There may be compilation errors in the current `main.cpp` file (see `compilingerror.txt`). These need to be resolved before successful compilation. The errors appear to be related to missing closing braces and function declarations.
+Alternatively, use the provided `compile.sh` script to compile and capture any errors:
+
+```bash
+./compile.sh
+```
+
+This will save compilation output to `compilererror.txt`.
+
+If you want to compile the Hello World example instead of the full game:
+
+```bash
+g++ -DHELLO_WORLD main.cpp -o hello_world
+./hello_world
+```
+
+### Error Analysis
+If compilation fails, run the error parser to analyze errors and get suggestions:
+
+```bash
+python3 error_parser.py
+```
+
+This will append a description of errors and fix steps to `../TODO_tetris_fixes.txt` with checkboxes for tracking.
 
 ### Running
 After successful compilation:
@@ -70,12 +92,15 @@ After successful compilation:
 
 ## File Structure
 
-- `main.cpp`: Main game source code.
-- `main_backup.cpp`: Backup of previous version.
-- `compilingerror.txt`: Compilation errors (needs fixing).
+- `main.cpp`: Main game source code (includes Hello World example with -DHELLO_WORLD).
+- `compile.sh`: Shell script to compile the game and save output to `compilererror.txt`.
+- `error_parser.py`: Python script to analyze `compilererror.txt` and suggest fixes in `../TODO_tetris_fixes.txt`.
+- `compilererror.txt`: Compilation output/errors.
 - `gamedata.dat`: Saved game data (coins, wallpapers).
 - `coins.dat`: Legacy coin data file.
 - `tetris`: Compiled executable (if compilation succeeds).
+- `hello_world`: Compiled Hello World executable (if compiled with -DHELLO_WORLD).
+- `main_backup.cpp`: Backup of previous version.
 - `TetrisThemeArduino.ino`: Arduino file for Tetris theme (not used in C++ version).
 
 ## Known Issues
