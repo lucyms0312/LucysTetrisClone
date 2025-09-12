@@ -1,7 +1,7 @@
 # Tetris Clone C++
 
 A classic Tetris game implemented in C++ using the SFML (Simple and Fast Multimedia Library) for graphics, audio, and window management.
-
+THIS GAME WAS MADE WITH LINUX IN MIND, if you are using Windows please port it into a windows executable
 ## Features
 
 - **Classic Tetris Gameplay**: Standard Tetris mechanics with falling tetrominoes, line clearing, scoring, and levels.
