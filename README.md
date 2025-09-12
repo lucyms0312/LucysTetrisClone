@@ -2,6 +2,10 @@
 
 A classic Tetris game implemented in C++ using the SFML (Simple and Fast Multimedia Library) for graphics, audio, and window management.
 
+
+
+Although this script was prompted by me and slightly edited by me, this code heavily uses AI so some features might be unstable, please bear with me as I take the time to fix these issues
+
 ## Features
 
 - **Classic Tetris Gameplay**: Standard Tetris mechanics with falling tetrominoes, line clearing, scoring, and levels.
