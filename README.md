@@ -125,10 +125,9 @@ This project is open-source. No specific license is defined; consider it under M
 
 
 
-
-<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/909505dd-64ed-4e42-a1d5-8c763260b8c8" />
-<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/35983e0f-937b-4ed0-a1cc-183dacad2628" />
-<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/8651c02f-ef6e-4663-9662-92d42a570487" />
-<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/f65a7528-e842-4ed5-ba15-5ebbcb491a74" />
-<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/9bd3abce-b4a9-435c-bd60-bfe640d8d6ba" />
+<img width="600" height="625" alt="image" src="https://github.com/user-attachments/assets/663ab119-0c93-43b5-8c5a-869b71f7c6f0" />
+<img width="608" height="629" alt="image" src="https://github.com/user-attachments/assets/6d04d0be-a220-4a9f-91bc-0e29efebd02a" />
+<img width="593" height="617" alt="image" src="https://github.com/user-attachments/assets/796ffa37-a7bb-4b23-8282-a8291aa9a79f" />
+<img width="591" height="628" alt="image" src="https://github.com/user-attachments/assets/d7655b03-6a65-401d-99a1-0453b5a2d59b" />
+<img width="600" height="630" alt="image" src="https://github.com/user-attachments/assets/16a76a17-2b10-401c-86b2-2d7530b0f50d" />
 
