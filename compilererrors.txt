@@ -1,0 +1,10 @@
+WOOHOO!! NO ERRORS FOUND, you're doing fantastic!
+
+
+
+    Now you're on your own. 
+       you'll need to figure out any errors that occur from here on out.
+
+       You can use the following resoures to help you:
+        - compile.sh: This script will compile the game and logs any errors to the compilererror.txt file
+        it then proceeds to add to TODO_tetris_fixes.txt with a description and steps to fix the errors. The errors should be simplified, if not I will fix that
