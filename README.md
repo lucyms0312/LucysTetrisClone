@@ -122,3 +122,13 @@ This project is open-source. No specific license is defined; consider it under M
 - Developed by Lucy (based on code comments).
 - Tetris theme generated from Arduino notes.
 - Uses SFML for multimedia functionality.
+
+
+
+
+<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/909505dd-64ed-4e42-a1d5-8c763260b8c8" />
+<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/35983e0f-937b-4ed0-a1cc-183dacad2628" />
+<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/8651c02f-ef6e-4663-9662-92d42a570487" />
+<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/f65a7528-e842-4ed5-ba15-5ebbcb491a74" />
+<img width="587" height="620" alt="image" src="https://github.com/user-attachments/assets/9bd3abce-b4a9-435c-bd60-bfe640d8d6ba" />
+
