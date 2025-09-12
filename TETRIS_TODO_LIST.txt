@@ -1,10 +1,11 @@
 TODO List for Tetris Clone Fixes and Enhancements:
 [ ] 1. Fix the _USE_MATH_DEFINES macro usage and include order to resolve SFML errors related to BlendMode.
-   - Current code has "Define _USE_MATH_DEFINES" instead of "#define _USE_MATH_DEFINES".
+   (^Not currently needed, cross out upon rearrival to this file)
+- Current code has "Define _USE_MATH_DEFINES" instead of "#define _USE_MATH_DEFINES".
    - Ensure proper placement before including <cmath> or <math.h>.
 
 [ ] 2. Replace font.loadFromFile() calls with font.openFromFile() as SFML Font class uses openFromFile().
-
+   (^ not necessary as text font works fine, erase this task when you get to it)
 [ ] 3. Add #include <fstream> to main.cpp to fix incomplete type errors for std::ifstream and std::ofstream.
 
 Next Steps:
