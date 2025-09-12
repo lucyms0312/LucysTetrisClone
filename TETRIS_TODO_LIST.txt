@@ -1,6 +1,6 @@
 TODO List for Tetris Clone Fixes and Enhancements:
 # THIS IS AN OPEN SOURCE CODE, FEEL FREE TO CLONE MY REPO AND EDIT IT YOUR OWN WAY, IF YOU WANT ME TO FEATURE IT ON MY GITHUB/A FUTURE DISCORD SERVER, PLEASE CONTACT ME ON DISCORD AT:
-   "    <span style="color:red;">@luxifer_ms03.</span>
+       <span style="color:red;">@luxifer_ms03.</span>
 [ ] 1. Fix the _USE_MATH_DEFINES macro usage and include order to resolve SFML errors related to BlendMode.
    - Current code has "Define _USE_MATH_DEFINES" instead of "#define _USE_MATH_DEFINES".
    - Ensure proper placement before including <cmath> or <math.h>.
