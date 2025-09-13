@@ -1,0 +1,12 @@
+--- September 12th, 2025 --
+# MOUSE CONTROL FUNCTIONS
+Implementing a mouse control feature that allows the user to drag block pieces inside the border, using "R" or Up arrow to rotate the block piece.
+ Adding a MOUSE_CHAOS event that when enabled, makes tetris pieces move outside the border and a new block spawns in place relative to the position of where the previous block went out of bounds.
+
+# Fixing slider functionality
+ As the sliders currently do nothing I need to utilize a preview screen that shows the updated brightness screen and sound preview for volume
+
+
+
+# Wobbly Window 
+- Adding a feature that when dragged, the game window wiggles around similar to the KDE plasma windows
