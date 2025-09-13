@@ -63,15 +63,15 @@ If compilation fails, run the error parser to analyze errors and get suggestions
 python3 error_parser.py
 ```
 
-This will append a description of errors and fix steps to `../TODO_tetris_fixes.txt` with checkboxes for tracking.
+This will add a description of the errors and steps to take inside the `../TODO_tetris_fixes.txt` with checkboxes for tracking which tasks have been completed.
 
 ### Running
-After successful compilation:
+After the compilation and there's no errors, you can run
 
 ```bash
 ./tetris
 ```
-
+and check for anything you want to add/remove, at this point you have freedom to do what you want
 ## Controls
 
 - **Left Arrow**: Move piece left
